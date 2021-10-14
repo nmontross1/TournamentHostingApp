@@ -1,0 +1,201 @@
+<main id="tournament">
+  <ul class="round round-1">
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 1</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 2</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 3</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 4</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top ">Player 5</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom winner">Player 6</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 7</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player8</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 9</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 10</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 11</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 12</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 13</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 14</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 15</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 16</li>
+
+    <li class="spacer">&nbsp;</li>
+
+    <li class="game game-top winner">Player 17</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 18</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 19</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 20</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top ">Player 21</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom winner">Player 22</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 23</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 24</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 25</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 26</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 27</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 28</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 29</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 30</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 31</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 32</li>
+
+    <li class="spacer">&nbsp;</li>
+  </ul>
+  <ul class="round round-2">
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 1</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 3</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 6</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 7</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top ">Player 9</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom winner">Player 11</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top ">Player 13</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom winner">Player 15</li>
+  
+    <li class="spacer">&nbsp;</li>
+
+    <li class="game game-top winner">Player 17</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 19</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 22</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 23</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top ">Player 25</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom winner">Player 27</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top ">Player 29</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom winner">Player 31</li>
+  
+    <li class="spacer">&nbsp;</li>
+  </ul>
+  <ul class="round round-3">
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 1</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 6</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top ">Player 11</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom winner">Player 15</li>
+
+    <li class="spacer">&nbsp;</li>
+
+    <li class="game game-top winner">Player 22</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 23</li>
+
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top ">Player 27</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom winner">Player 31</li>
+
+    <li class="spacer">&nbsp;</li>
+  </ul>
+  <ul class="round round-4">
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 1</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 15</li>
+    
+    <li class="spacer">&nbsp;</li>
+    <li class="game game-top winner">Player 22</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 31</li>
+    
+    <li class="spacer">&nbsp;</li>
+  </ul>
+  <ul class="round round-4">
+    <li class="spacer">&nbsp;</li>
+    
+    <li class="game game-top winner">Player 1</li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom ">Player 22</li>
+    <li class="spacer">&nbsp;</li>
+  </ul>   
+</main>

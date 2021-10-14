@@ -1,0 +1,64 @@
+Date : 2021-09-30 13:40:17
+Directory : c:\Users\Student\workspace\java-final-capstone-team2\vue\src
+Total : 34 files,  4404 codes, 115 comments, 777 blanks, all 5296 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Vue        |         29 |      4,194 |         99 |        747 |      5,040 |
+| JavaScript |          5 |        210 |         16 |         30 |        256 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                 | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                    |         34 |      4,404 |        115 |        777 |      5,296 |
+| components                                                                                           |         20 |      3,396 |         30 |        671 |      4,097 |
+| router                                                                                               |          1 |         91 |         11 |          7 |        109 |
+| services                                                                                             |          2 |         60 |          0 |         14 |         74 |
+| store                                                                                                |          1 |         47 |          5 |          5 |         57 |
+| views                                                                                                |          8 |        748 |         69 |         62 |        879 |
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                             | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\App.vue                                 | Vue        |         50 |          0 |         14 |         64 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\AddTournamentComp.vue        | Vue        |        146 |          0 |         11 |        157 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\DeleteTournament.vue         | Vue        |          0 |          0 |          1 |          1 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\DisplayTournament.vue        | Vue        |         32 |          0 |          3 |         35 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\EditEightTeamBracket.vue     | Vue        |        171 |          3 |         25 |        199 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\EditFourTeamBracket.vue      | Vue        |        132 |          3 |         17 |        152 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\EditSixteenTeamBracket.vue   | Vue        |        246 |          3 |         48 |        297 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\EditSixtyFourTeamBracket.vue | Vue        |        683 |          3 |        153 |        839 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\EditThirtyTwoTeamBracket.vue | Vue        |        392 |          3 |         81 |        476 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\EditTournament.vue           | Vue        |         61 |          0 |          9 |         70 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\EightTeamBracket.vue         | Vue        |        119 |          3 |         22 |        144 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\FourTeamBracket.vue          | Vue        |        103 |          3 |         15 |        121 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\MyTournamentsComp.vue        | Vue        |        108 |          0 |         12 |        120 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\PendingInvites.vue           | Vue        |         92 |          0 |          6 |         98 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\SixteenTeamBracket.vue       | Vue        |        154 |          3 |         37 |        194 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\SixtyFourTeamBracket.vue     | Vue        |        345 |          3 |        129 |        477 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\ThirtyTwoTeamBracket.vue     | Vue        |        221 |          3 |         68 |        292 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\TournamentCard.vue           | Vue        |         87 |          0 |          8 |         95 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\TournamentDetail.vue         | Vue        |         82 |          0 |         10 |         92 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\TournamentList.vue           | Vue        |        131 |          0 |          8 |        139 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\components\UsersInvite.vue              | Vue        |         91 |          0 |          8 |         99 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\main.js                                 | JavaScript |         12 |          0 |          4 |         16 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\router\index.js                         | JavaScript |         91 |         11 |          7 |        109 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\services\AuthService.js                 | JavaScript |          9 |          0 |          5 |         14 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\services\TournamentService.js           | JavaScript |         51 |          0 |          9 |         60 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\store\index.js                          | JavaScript |         47 |          5 |          5 |         57 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\views\AddTournament.vue                 | Vue        |         20 |          0 |          5 |         25 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\views\Detail.vue                        | Vue        |         12 |          0 |          2 |         14 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\views\EditTournament.vue                | Vue        |         39 |          0 |          2 |         41 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\views\Home.vue                          | Vue        |         24 |          0 |          6 |         30 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\views\Login.vue                         | Vue        |        317 |         69 |         25 |        411 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\views\Logout.vue                        | Vue        |         11 |          0 |          2 |         13 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\views\MyTournaments.vue                 | Vue        |         19 |          0 |          4 |         23 |
+| c:\Users\Student\workspace\java-final-capstone-team2\vue\src\views\Register.vue                      | Vue        |        306 |          0 |         16 |        322 |
+| Total                                                                                                |            |      4,404 |        115 |        777 |      5,296 |
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

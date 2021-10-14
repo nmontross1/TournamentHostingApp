@@ -1,0 +1,157 @@
+<template>
+<body>
+<header>
+  <title>Tournament Hosting Login Page</title>
+  <h2 class="h3 mb-3 font-weight-normal">Please Log In</h2>
+</header>
+  <div id="login" class="text-center">
+    <form class="form-signin" @submit.prevent="login">
+      <div
+        class="alert alert-danger"
+        role="alert"
+        v-if="invalidCredentials"
+      >Invalid username and password!</div>
+      <div
+        class="alert alert-success"
+        role="alert"
+        v-if="this.$route.query.registration"
+      >Thank you for registering, please sign in.</div>
+      <label for="username" class="sr-only"><b>Username: </b></label>
+      <input
+        type="text"
+        id="username"
+        class="form-control"
+        placeholder="Username"
+        v-model="user.username"
+        required
+        autofocus
+      />
+    <br><br>
+      <label for="password" class="sr-only"><b>Password: </b></label>
+      <input
+        type="password"
+        id="password"
+        class="form-control"
+        placeholder="Password"
+        v-model="user.password"
+        required
+      />
+    <br><br>
+    <div id="log">
+      <input type="submit" name="log" id="log" value="Log In">
+      <br><br>
+      <router-link :to="{ name: 'register' }" tag="button" type="submit" id="log">Create Account</router-link>
+    </div>
+    </form>
+  </div>
+    <footer class="footer">
+        <p class="copyright">© Tournament Hosting Tech Elevator 2021</p>
+    </footer>
+  </body>
+</template>
+
+<script>
+import authService from "../services/AuthService";
+
+export default {
+  name: "login",
+  components: {},
+  data() {
+    return {
+      user: {
+        username: "",
+        password: ""
+      },
+      invalidCredentials: false
+    };
+  },
+  methods: {
+    login() {
+      authService
+        .login(this.user)
+        .then(response => {
+          if (response.status == 200) {
+            this.$store.commit("SET_AUTH_TOKEN", response.data.token);
+            this.$store.commit("SET_USER", response.data.user);
+            this.$router.push("/");
+          }
+        })
+        .catch(error => {
+          const response = error.response;
+
+          if (response.status === 401) {
+            this.invalidCredentials = true;
+          }
+        });
+    }
+  }
+};
+</script>
+
+<style>
+a{ 
+  text-decoration: none;
+}
+
+body{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;
+    font-family: 'Arial';  
+}
+
+#login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;           
+}
+
+h2{  
+    text-align: center;  
+    color: #277582;
+    padding: 20px;  
+} 
+
+label{  
+    color: #08ffd1;
+    font-size: 17px;  
+}  
+
+.sr-only{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+} 
+
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;
+    cursor: pointer;
+}
+
+footer {
+        position: relative;
+        height: 300px;
+        width: 100%;
+}
+
+p.copyright {
+        position: absolute;
+        width: 100%;
+        color: #fff;
+        line-height: 40px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom:0;
+}
+</style>

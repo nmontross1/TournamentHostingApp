@@ -1,0 +1,127 @@
+<article id="containerRight">
+    
+<section class="right">
+    <div>Player 17</div>
+    <div>Player 18</div>
+    <div>Player 19</div>
+    <div>Player 20</div>
+    <div>Player 21</div>
+    <div>Player 22</div>
+    <div>Player 23</div>
+    <div>Player 24</div>
+</section>
+
+<div class="connecterRight">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<div class="lineRight">
+    <div>
+    </div><div>
+    </div><div>
+    </div><div>
+    </div>
+</div>
+
+<section id="quarterFinals" class="right">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+
+<div class="connecterRight" id="conn2">
+    <div></div>
+    <div></div>
+</div>
+
+<div class="lineRight" id="line2">
+    <div></div>
+    <div></div>
+</div>
+
+<section id="semiFinals" class="right">
+    <div></div>
+    <div></div>
+</section>
+
+<div class="connecterRight" id="conn3">
+    <div></div>
+</div>
+
+<div class="lineRight" id="line3">
+    <div></div>
+</div>
+
+<section id="final" class="right">
+<div></div>
+</section>
+</article>
+
+<style>
+
+#containerRight { 
+    width: 600px; 
+    height: 450px; 
+    float: right; 
+}
+
+.right { 
+    width: 97.5px; 
+    height: 390px; 
+    float: right;
+}
+
+.right > div { 
+    width: 75px; 
+    height: 15px; 
+    border: 1px solid #000; 
+    margin: 7.5px 0; 
+    background: #73789F; 
+    color: white; 
+    padding: 7.5px 7.5px 7.5px 7.5px;
+}
+
+.right > div:nth-child(2n) { 
+    margin-bottom: 30px;
+}
+
+.connecterRight { 
+    width: 30px; 
+    height: 390px; 
+    float: right; 
+}
+
+.lineRight { 
+    width: 30px; 
+    height: 390px; 
+    float: right; 
+}
+
+.connecterRight div { 
+    border: 1px solid #000; 
+    border-right: none; 
+    height: 37.5px; 
+    width: 100%; 
+    margin: 60px 0 0 0.75px;
+}
+
+.connecterRight div:first-child { 
+    margin: 24px 0 0 0.75px; 
+}
+
+.lineRight div { 
+    border-top: 1px solid #000; 
+    margin: 99.75px 0 0 0.75px; 
+}
+
+.lineRight div:first-child { 
+    margin-top: 40.5px; 
+}
+
+
+</style>
+
